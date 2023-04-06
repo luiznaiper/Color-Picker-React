@@ -3,7 +3,7 @@ const SingleColor = ({ index, color }) => {
 
   return (
     <article
-      className={index > 10 ? 'color color-light' : 'color'}
+      className={index > 5 ? 'color color-light' : 'color'}
       style={{ background: `#${hex}` }}
     >
       <p className="percent-value">{weight}%</p>
