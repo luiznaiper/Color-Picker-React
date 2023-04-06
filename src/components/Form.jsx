@@ -14,6 +14,7 @@ const Form = () => {
     <section className="container">
       <h4>Color generator</h4>
       <form className="color-form" onSubmit={handleSubmit}>
+        <input type="color" value={color} onChange={handleColor} />
         <input
           type="text"
           value={color}
