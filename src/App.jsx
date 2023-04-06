@@ -1,5 +1,13 @@
+import ColorList from './components/ColorList'
+import Form from './components/Form'
+
 function App() {
-  return <h1>Hola </h1>
+  return (
+    <main>
+      <Form />
+      <ColorList />
+    </main>
+  )
 }
 
 export default App
